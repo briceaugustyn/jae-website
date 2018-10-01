@@ -12,22 +12,29 @@ import Feedback from './components/feedback';
 import Contact from './components/contact';
 import News from './components/news';
 import Footer from './components/footer';
+import Audit from './components/audit';
+import Training from './components/training';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header />
-        <Welcome />
-        <Special />
+        {/* <Welcome /> */}
+        {/* <Special /> */}
+        <Shoecase />
+        <News />
+        <Audit />
+        <Training />
+        {/* <Special />
         <Feature />
         <Shoecase />
         <Subscribe />
         <Screenshot />
         <Video />
-        <Feedback />
+        <Feedback /> */}
         <Contact />
-        <News />
+        {/* <News /> */}
         <Footer />
       </div>
     );

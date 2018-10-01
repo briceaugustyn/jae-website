@@ -10,7 +10,7 @@ class Shoecase extends React.Component{
             <div className="col-12 text-center">
               {/* Heading Text  */}
               <div className="section-heading text-uppercase wow bounceIn" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
-                <h2>Showcase</h2>
+                <h2>About us</h2>
                 <div className="line-shape" />
               </div>
             </div>
