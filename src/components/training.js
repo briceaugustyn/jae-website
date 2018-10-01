@@ -49,10 +49,10 @@ class Team extends React.Component{
               <div className="name p-b-1">
                 {/* Team Member Name and link to his page */}
                 <a href>
-                  <h5 className="global_color_1 text-center">Sandra More</h5>
+                  <h5 className="global_color_1 text-center">Training1</h5>
                 </a>
                 {/* Team Member Job */}
-                <h6 className="text-center">Web Developer</h6>
+                <h6 className="text-center">Content1</h6>
 
                 <p className="text-block">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et tempus quam. Aliquam eu
@@ -95,10 +95,10 @@ class Team extends React.Component{
               <div className="name p-b-1">
                 {/* Team Member Name and link to his page */}
                 <a href>
-                  <h5 className="global_color_1 text-center">John Snow</h5>
+                  <h5 className="global_color_1 text-center">Training2</h5>
                 </a>
                 {/* Team Member Job */}
-                <h6 className="text-center">Creation Studio</h6>
+                <h6 className="text-center">Training2</h6>
 
                 <p className="text-block">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et tempus quam. Aliquam eu
@@ -141,10 +141,10 @@ class Team extends React.Component{
               <div className="name p-b-1 text-center">
                 {/* Team Member Name and link to his page */}
                 <a href="#">
-                  <h5 className="global_color_1">David Bobby</h5>
+                  <h5 className="global_color_1">Training3</h5>
                 </a>
                 {/* Team Member Job */}
-                <h6 className="text-center">UI/UX Designer</h6>
+                <h6 className="text-center">Training3</h6>
 
                 <p className="text-block">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et tempus quam. Aliquam eu
@@ -187,10 +187,10 @@ class Team extends React.Component{
               <div className="name  text-center">
                 {/* Team Member Name and link to his page */}
                 <a href>
-                  <h5 className="global_color_1">Aria Stark</h5>
+                  <h5 className="global_color_1">Training4</h5>
                 </a>
                 {/* Team Member Job */}
-                <h6 className="text-center m-b-2">Office Manager</h6>
+                <h6 className="text-center m-b-2">Training4</h6>
 
                 <p className="text-block">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et tempus quam. Aliquam eu
