@@ -8,7 +8,7 @@ class Footer extends React.Component{
         <footer className="footer-social-icon text-center section_padding_70">
        
         <div className="footer-text">
-          <h2>APPLE</h2>
+          <h2>ADQMS</h2>
         </div>
         
         <div className="footer-social-icon">

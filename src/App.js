@@ -20,7 +20,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        {/* <Welcome /> */}
+        <Welcome />
         {/* <Special /> */}
         <Shoecase />
         <News />

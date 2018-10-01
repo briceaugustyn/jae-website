@@ -22,7 +22,7 @@ class Shoecase extends React.Component{
               </div>
             </div>
             <div className="col-md-6">
-              <h3 className="section-heading m-b-25 global_color_1 font-35 wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">What is Apple?</h3>
+              <h3 className="section-heading m-b-25 global_color_1 font-35 wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">What is ADQMS?</h3>
               <p className="type-gray-1 m-b-40 wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu, lobortis id interdum
                 vitae, interdum eget elit. Curabitur quis urna nulla. Suspendisse potenti. Duis suscipit ultrices

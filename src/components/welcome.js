@@ -9,10 +9,9 @@ class Welcome extends React.Component{
           <div className="row">
             <div className="col-lg-6">
               <div className="wellcome-heading  mt-220 text-center">
-                <h2>APPLE</h2>
+                <h2>ADQMS</h2>
                 <h3 className="mt-220">A</h3>
-                <p>Everything You Need. To Start Selling Online Beautifully.Premium landing page to present your
-                  app</p>
+                <p>Quality Management Systems & Business Process Management Consulting</p>
               </div>
               <div className="welcome-area-link text-center">
                 <ul>
