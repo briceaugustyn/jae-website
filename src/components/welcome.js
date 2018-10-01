@@ -34,10 +34,10 @@ class Welcome extends React.Component{
                   <img className="img-fluid" src="img/bg-img/aqslogo.png" alt />
                 </div>
                 <div className="single-shot">
-                  <img className="img-fluid" src="img/scr-img/phone-08.png" alt />
+                  <img className="img-fluid" src="img/bg-img/aqslogo.png" alt />
                 </div>
                 <div className="single-shot">
-                  <img className="img-fluid" src="img/scr-img/phone-09.png" alt />
+                  <img className="img-fluid" src="img/bg-img/aqslogo.png" alt />
                 </div>
               </div>
             </div>
