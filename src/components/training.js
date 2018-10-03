@@ -114,34 +114,9 @@ class Team extends React.Component {
                 </p>
               </div>
             </div>
-            {/* Single Team Container */}
-            <div className="team-member">
-              <figure>
-                {/* Team Image */}
-                <img src="./images/team2.jpg" alt="img25" />
-                <figcaption className="team_bgcolor">
-
-                </figcaption>
-              </figure>
-              <div className="name  text-center">
-                {/* Team Member Name and link to his page */}
-                <a href>
-                  <h5 className="global_color_1">Training4</h5>
-                </a>
-                {/* Team Member Job */}
-                <h6 className="text-center m-b-2">Training4</h6>
-
-                <p className="text-block">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et tempus quam. Aliquam eu
-                  tellus urna. Pellentesque consectetur et nisl vel pulvinar. Vestibulum ante ipsum primis in
-                  faucibus orci luctus et ultrices posuere cubilia Curae; Donec nec condimentum ipsum. Donec
-                  sollicitudin gravida felis. Aliquam eu augue viverra, tempus tellus in, dictum orci.
-                  Praesent volutpat porta vehicula. Pellentesque a mauris sit amet diam vehicula tincidunt eu
-                  ac ante. Phasellus in metus lectus. Duis scelerisque velit eget nisl tempor aliquet.
-                  Curabitur est risus, facilisis non
-          </p>
-              </div>
-            </div>
+            
+            
+            
           </div>
         </div>
       </section>

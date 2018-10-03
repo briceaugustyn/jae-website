@@ -24,6 +24,29 @@ opacity: .9;
 /* header area end */
 
 
+/* Audits area start
+#audit{
+	background: url(../img/bg-img/newsleaters.jpeg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+  }
+  #audit::before{
+	  position: absolute;
+	  content: " ";
+	  width: 100%;
+	  height: 100%;
+	  top: 0;
+	  left: 0;
+	  background-image: -moz-linear-gradient( -29deg, rgb(3, 46, 82) 0%, rgb(8, 168, 184) 100%);
+	  background-image: -webkit-linear-gradient( -29deg, rgb(3, 46, 82) 0%, rgb(8, 168, 184) 100%);
+	  background-image: -ms-linear-gradient( -29deg, rgb(3, 46, 82) 0%, rgb(8, 168, 184) 100%);
+  opacity: .9;
+  
+  } */
+  /* audit area end*/
+  
+
 /* feture area start*/
 #features {
   background: url(../img/bg-img/features-bg.jpg) no-repeat center;
@@ -135,7 +158,7 @@ opacity: .9;
 
 /* subscribe area start*/
 .footer-contact-area{
-  background: url(../img/bg-img/aqs logo.jpg) no-repeat center;
+  background: url(../img/bg-img/aqslogo.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
