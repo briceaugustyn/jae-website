@@ -1,3 +1,17 @@
+10/2/18 I will need Jae linked in
+
+
+Here is what I am thinking using contents form my previous website, which by the way took me three months to make. 😊
+ 
+First row: About us/Who we are (single row with no sides swipe page)
+
+Second Row (audits)– I’ll get you some content (for swipe pages)
+
+Third row (training) – I’ll get you some content. (for swipe pages)
+
+Fourth Row: Contact us (single row with no sides swipe page)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

@@ -12,10 +12,8 @@ class Footer extends React.Component{
         </div>
         
         <div className="footer-social-icon">
-          <a href="#"><i className="fa fa-facebook" aria-hidden="true" /></a>
-          <a href="#"><i className="fa fa-twitter" aria-hidden="true" /></a>
-          <a href="#"> <i className="fa fa-instagram" aria-hidden="true" /></a>
-          <a href="#"><i className="fa fa-google-plus" aria-hidden="true" /></a>
+          <a href="linkedin.com/in/canopener"><i className="fa fa-linkedin" aria-hidden="true" /></a>
+         
         </div>
         <div className="footer-menu">
           <nav>
@@ -29,7 +27,7 @@ class Footer extends React.Component{
         </div>
         
         <div className="copyright-text">
-          <p>Copyright ©2018, <a className="global_color_1" href="http://opticalcoder.com" target="_blank">Opticalcoder.com</a><br /> Designed by <a className="global_color_1" href="http://developermamun.com" target="_blank">DeveloperMamun</a>
+          <p>Copyright ©2018, <a className="global_color_1" href="https://briceaugustyn.com" target="_blank">Brice Augustyn</a>
           </p>
         </div>
       </footer>
