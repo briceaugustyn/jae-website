@@ -7,7 +7,7 @@ class Welcome extends React.Component{
         <section className="wellcome_area" id="home">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               <div className="wellcome-heading  mt-220 text-center">
                 <h2>ADQS</h2>
                 <h3 className="mt-220">A</h3>
@@ -19,7 +19,7 @@ class Welcome extends React.Component{
                 </ul>
               </div>
             </div>
-            <div className="col-lg-6 d-none  scr-area d-lg-block d-xl-block text-center">
+            {/* <div className="col-lg-6 d-none  scr-area d-lg-block d-xl-block text-center">
               <div className="welcome_slides owl-carousel mt-150 text-center">
                 <div className="single-shot">
                   <img className="img-fluid" src="img/bg-img/aqslogo.png" alt />
@@ -40,7 +40,7 @@ class Welcome extends React.Component{
                   <img className="img-fluid" src="img/bg-img/aqslogo.png" alt />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

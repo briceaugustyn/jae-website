@@ -14,18 +14,18 @@ class Contact extends React.Component{
                 <h2>Get in touch with us!</h2>
                 <div className="line-shape" />
               </div>
-              <div className="footer-text wow fadeInUp" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
+              {/* <div className="footer-text wow fadeInUp" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
                 <p>We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all
-                  FREE!</p>
-              </div>
+                  FREE!</p> */}
+              {/* </div> */}
               <div className="address-text wow fadeInUp" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
-                <p><span>Address :</span> Dhaka , Bangladesh</p>
+                <p><span>Address :</span> Santa Rosa , California</p>
               </div>
               <div className="phone-text wow fadeInUp" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
-                <p><span>Phone: </span> +88 01795846424</p>
+                <p><span>Phone: </span> 1 (888) 759 2786</p>
               </div>
               <div className="email-text wow fadeInUp" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
-                <p><span>Email: </span> opticalcoder@gmail.com</p>
+                <p><span>Email: </span>jason.lee@adaptivequalitysystems.com</p>
               </div>
             </div>
             <div className="col-md-6">

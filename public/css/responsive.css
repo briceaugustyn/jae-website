@@ -668,7 +668,8 @@ Email: developermamunurrashid@gmail.com
         color: #fb397d;
     }
 	.header_area .menu_area #nav .nav-item.active .nav-link {
-        color: #fb397d;
+		color: #fb397d;
+		
     }
 	#pricing .price:hover{
 		transform: scale(1);

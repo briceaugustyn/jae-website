@@ -27,7 +27,7 @@ class Footer extends React.Component{
         </div>
         
         <div className="copyright-text">
-          <p>Copyright ©2018, <a className="global_color_1" href="https://briceaugustyn.com" target="_blank">Brice Augustyn</a>
+          <p>Copyright ©2018, Designed by <a className="global_color_1" href="https://briceaugustyn.com" target="_blank">Brice Augustyn</a>
           </p>
         </div>
       </footer>

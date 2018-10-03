@@ -25,25 +25,8 @@ class Team extends React.Component{
                 {/* Team Image */}
                 <img className="responsive-img" src="images/team1.jpg" alt="news image" />
                 <figcaption className="team_bgcolor">
-                  {/* Team Social Network*/}
-                  <p className="icons">
-                    {/*Facebook Link and Icon*/}
-                    <a href="#">
-                      <i className="fa fa-facebook" />
-                    </a>
-                    {/*Twitter Link and Icon*/}
-                    <a href="#">
-                      <i className="fa fa-twitter" />
-                    </a>
-                    {/*Linkedin Link and Icon*/}
-                    <a href="#">
-                      <i className="fa fa-linkedin" />
-                    </a>
-                    {/*Pinterest Link and Icon*/}
-                    <a href="#">
-                      <i className="fa fa-pinterest" />
-                    </a>
-                  </p>
+                 
+                  
                 </figcaption>
               </figure>
               <div className="name p-b-1">
@@ -71,25 +54,8 @@ class Team extends React.Component{
                 {/* Team Image */}
                 <img src="./images/team3.jpg" alt="img25" />
                 <figcaption className="team_bgcolor">
-                  {/* Team Social Network */}
-                  <p className="icons">
-                    {/*Facebook Link and Icon*/}
-                    <a href="#">
-                      <i className="fa fa-facebook" />
-                    </a>
-                    {/*Twitter Link and Icon*/}
-                    <a href="#">
-                      <i className="fa fa-twitter" />
-                    </a>
-                    {/*Linkedin Link and Icon*/}
-                    <a href="#">
-                      <i className="fa fa-linkedin" />
-                    </a>
-                    {/*Pinterest Link and Icon*/}
-                    <a href="#">
-                      <i className="fa fa-pinterest" />
-                    </a>
-                  </p>
+                 
+                  
                 </figcaption>
               </figure>
               <div className="name p-b-1">
@@ -117,25 +83,8 @@ class Team extends React.Component{
                 {/* Team Image */}
                 <img src="./images/team2.jpg" alt="img25" />
                 <figcaption className="team_bgcolor">
-                  {/* Team Social Network */}
-                  <p className="icons">
-                    {/*Facebook Link and Icon*/}
-                    <a href="#">
-                      <i className="fa fa-facebook" />
-                    </a>
-                    {/*Twitter Link and Icon*/}
-                    <a href="#">
-                      <i className="fa fa-twitter" />
-                    </a>
-                    {/*Linkedin Link and Icon*/}
-                    <a href="#">
-                      <i className="fa fa-linkedin" />
-                    </a>
-                    {/*Pinterest Link and Icon*/}
-                    <a href="#">
-                      <i className="fa fa-pinterest" />
-                    </a>
-                  </p>
+                
+                  
                 </figcaption>
               </figure>
               <div className="name p-b-1 text-center">
@@ -163,25 +112,8 @@ class Team extends React.Component{
                 {/* Team Image */}
                 <img src="./images/team2.jpg" alt="img25" />
                 <figcaption className="team_bgcolor">
-                  {/* Team Social Network */}
-                  <p className="icons">
-                    {/*Facebook Link and Icon*/}
-                    <a href="#">
-                      <i className="fa fa-facebook" />
-                    </a>
-                    {/*Twitter Link and Icon*/}
-                    <a href="#">
-                      <i className="fa fa-twitter" />
-                    </a>
-                    {/*Linkedin Link and Icon*/}
-                    <a href="#">
-                      <i className="fa fa-linkedin" />
-                    </a>
-                    {/*Pinterest Link and Icon*/}
-                    <a href="#">
-                      <i className="fa fa-pinterest" />
-                    </a>
-                  </p>
+                 
+                 
                 </figcaption>
               </figure>
               <div className="name  text-center">
