@@ -19,22 +19,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        {/* <Header />
         <Welcome />
-        {/* <Special /> */}
         <Shoecase />
         <News />
         <Audit />
-        <Training />
-        {/* <Special />
-        <Feature />
-        <Shoecase />
-        <Subscribe />
-        <Screenshot />
-        <Video />
-        <Feedback /> */}
-        <Contact />
-        {/* <News /> */}
+        <Training />*/}
+        <Contact /> 
         <Footer />
       </div>
     );

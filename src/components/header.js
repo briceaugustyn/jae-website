@@ -13,6 +13,7 @@ class Header extends React.Component{
               <div className="menu_area">
                 <nav className="navbar navbar-expand-xl navbar-light p-0" data-spy="affix" data-offset-top={17}>
                   {/* Logo */}
+                  
                   <a className="navbar-brand" href="index.html">Adaptive Quality Systems LLC</a>
                   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon" /></button>
                   {/* Menu Area */}
