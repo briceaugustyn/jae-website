@@ -19,12 +19,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <Header />
+        <Header />
         <Welcome />
         <Shoecase />
         <News />
         <Audit />
-        <Training />*/}
+        <Training />
         <Contact /> 
         <Footer />
       </div>
