@@ -15,7 +15,7 @@ class Welcome extends React.Component{
               </div>
               <div className="welcome-area-link text-center">
                 <ul>
-                  <li><a href="#">READ MORE</a></li>
+                  <li><a href="#intro">READ MORE</a></li>
                 </ul>
               </div>
             </div>
