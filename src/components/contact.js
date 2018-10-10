@@ -25,11 +25,14 @@ class Contact extends React.Component {
       .catch(error => alert(error));
 
     e.preventDefault();
-  
-    this.setState({name: ''});
-    this.setState({email: ''});
-    this.setState({message: ''});
+    console.log("hello")
+    this.setState({ name: '' });
+    this.setState({ email: '' });
+    this.setState({ message: '' });
   };
+
+
+
 
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
@@ -60,7 +63,7 @@ class Contact extends React.Component {
               </div>
               <div className="email-text wow fadeInUp" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
                 <p><span>Email: </span><a href="mailto:jason.lee@adaptivequalitysystems.com?subject=Request to ADQS&body=Hello,">jason.lee@adaptivequalitysystems.com</a></p>
-                
+
               </div>
             </div>
             <div className="col-md-6">
@@ -145,10 +148,18 @@ class Contact extends React.Component {
                         <button type="submit" className="btn submit-btn">Send Now</button>
                       </div>
 
+
                     </div>
                   </div>
                   {/* Message Input Area End */}
                 </form>
+
+                <form action method="post" id="contactForm" name="contactForm" onSubmit={this.handleErase}></form>
+                <div className="col-12 wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
+                  <button type="submit" className="btn submit-btn">Erase</button>
+                </div>
+
+
               </div>
             </div>
           </div>
