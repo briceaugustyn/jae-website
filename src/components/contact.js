@@ -21,7 +21,7 @@ class Contact extends React.Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...this.state })
     })
-      .then(() => alert("Request Sent To Brice"))
+      .then(() => alert("Request Sent To ADQS"))
       .catch(error => alert(error));
 
     e.preventDefault();
@@ -127,11 +127,11 @@ class Contact extends React.Component {
                       {/* Single Input Area Start */}
                       <div className="col-12 wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
                         <div className="form-group">
+                          <textarea name="message" className="form-control" id="message" cols={30} rows={4} placeholder="Your Message *" required defaultValue={""} value={message} onChange={this.handleChange} />
+                          {/* <label htmlFor="contactMessage">Message <span className="required">*</span></label> */}
+                          {/* <textarea cols={50} rows={15} id="contactMessage" defaultValue={""} name="message" value={message} onChange={this.handleChange} /> */}
 
-                          <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                          <textarea cols={50} rows={15} id="contactMessage" defaultValue={""} name="message" value={message} onChange={this.handleChange} />
 
-                          {/* <textarea name="message" className="form-control" id="message" cols={30} rows={4} placeholder="Your Message *" required defaultValue={""} value={message} onChange={this.handleChange} /> */}
                           {/* <textarea cols={50} rows={15} id="contactMessage"  defaultValue={""} name="message" value={message} onChange={this.handleChange}/> */}
                         </div>
                       </div>
