@@ -55,7 +55,8 @@ class Contact extends React.Component {
                 <p><span>Phone: </span> 1 (888) 759 2786</p>
               </div>
               <div className="email-text wow fadeInUp" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
-                <p><span>Email: </span>jason.lee@adaptivequalitysystems.com</p>
+                <p><span>Email: </span><a href="mailto:jason.lee@adaptivequalitysystems.com?subject=Request to ADQS&body=Hello,">jason.lee@adaptivequalitysystems.com</a></p>
+                
               </div>
             </div>
             <div className="col-md-6">
