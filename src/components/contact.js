@@ -8,8 +8,8 @@ const encode = (data) => {
 }
 
 
-class Contact extends React.Component{
-  
+class Contact extends React.Component {
+
   constructor(props) {
     super(props);
     this.state = { name: "", email: "", message: "" };
@@ -21,7 +21,7 @@ class Contact extends React.Component{
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...this.state })
     })
-      .then(() => alert("Email Sent To Brice"))
+      .then(() => alert("Request Sent To Brice"))
       .catch(error => alert(error));
 
     e.preventDefault();
@@ -30,12 +30,12 @@ class Contact extends React.Component{
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
 
-  
-  render() {
-    const { name, email, message } = this.state;  
-      return (
 
-<section className="footer-contact-area section_padding_100 clearfix" id="contact">
+  render() {
+    const { name, email, message } = this.state;
+    return (
+
+      <section className="footer-contact-area section_padding_100 clearfix" id="contact">
         <div className="container">
           <div className="row">
             <div className="col-md-6">
@@ -64,17 +64,17 @@ class Contact extends React.Component{
 
 
 
-<form action method="post" id="contactForm" name="contactForm" onSubmit={this.handleSubmit}>
+              {/* <form action method="post" id="contactForm" name="contactForm" onSubmit={this.handleSubmit}>
 <fieldset>
       <div>
         <label htmlFor="contactName">Name <span className="required">*</span></label>
         {/* <input type="text" defaultValue size={35} id="contactName" name="contactName" /> */}
-        <input type="text" defaultValue size={35} id="contactName" name="name" value={name} onChange={this.handleChange} />
+              {/* <input type="text" defaultValue size={35} id="contactName" name="name" value={name} onChange={this.handleChange} />
       </div>
-      <div>
-        <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-        {/* <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" /> */}
-        <input type="email" name="email" value={email} onChange={this.handleChange} />
+      <div> */}
+              {/* <label htmlFor="contactEmail">Email <span className="required">*</span></label> */}
+              {/* <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" /> */}
+              {/* <input type="email" name="email" value={email} onChange={this.handleChange} />
       </div>
       <div>
         <label htmlFor="contactSubject">Subject</label>
@@ -84,53 +84,58 @@ class Contact extends React.Component{
         <label htmlFor="contactMessage">Message <span className="required">*</span></label>
         <textarea cols={50} rows={15} id="contactMessage"  defaultValue={""} name="message" value={message} onChange={this.handleChange}/>
 
-      </div>
-      {/* <div>
+      </div> */}
+              {/* <div>
         <button className="submit" type="submit">Submit</button>
         <span id="image-loader">
           <img alt src="images/loader.gif" />
         </span>
       </div> */}
-      <div>
+              {/* <div>
       <button type="submit">Send</button>
       <span id="image-loader">
           <img alt src="images/loader.gif" />
         </span>
     </div>
     </fieldset>
-    </form> 
-{/* Form End */}
+    </form>  */}
+              {/* Form End */}
 
 
 
               {/* Form Start*/}
               <div className="contact_from">
-                <form action="#" method="post">
+              <form action method="post" id="contactForm" name="contactForm" onSubmit={this.handleSubmit}>
+                {/* <form action="#" method="post" onSubmit={this.handleSubmit}> */}
                   {/* Message Input Area Start */}
                   <div className="contact_input_area">
                     <div className="row">
                       {/* Single Input Area Start */}
                       <div className="col-md-12 wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
                         <div className="form-group">
-                          <input type="text" className="form-control" name="name" id="name" placeholder="Your Name" required />
+                          <input type="text" className="form-control" name="name" id="name" placeholder="Your Name" required required value={name} onChange={this.handleChange}/>
                         </div>
                       </div>
                       {/* Single Input Area Start */}
                       <div className="col-md-12 wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
                         <div className="form-group">
-                          <input type="email" className="form-control" name="email" id="email" placeholder="Your E-mail" required />
+
+                          <input type="email" className="form-control" name="email" id="email" placeholder="Your E-mail" value={email} onChange={this.handleChange} />
+                          {/* <input type="text" defaultValue size={35} id="contactName" name="name" value={name} onChange={this.handleChange} /> */}
                         </div>
                       </div>
                       {/* Single Input Area Start */}
                       <div className="col-12 wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
                         <div className="form-group">
-                          <textarea name="message" className="form-control" id="message" cols={30} rows={4} placeholder="Your Message *" required defaultValue={""} />
+                          <textarea name="message" className="form-control" id="message" cols={30} rows={4} placeholder="Your Message *" required defaultValue={""}  />
+                          {/* <textarea cols={50} rows={15} id="contactMessage"  defaultValue={""} name="message" value={message} onChange={this.handleChange}/> */}
                         </div>
                       </div>
                       {/* Single Input Area Start */}
                       <div className="col-12 wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
                         <button type="submit" className="btn submit-btn">Send Now</button>
                       </div>
+
                     </div>
                   </div>
                   {/* Message Input Area End */}
@@ -142,7 +147,7 @@ class Contact extends React.Component{
       </section>
 
 
-);  
-}
+    );
+  }
 };
 export default Contact;
