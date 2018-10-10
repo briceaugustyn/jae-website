@@ -127,7 +127,7 @@ class Contact extends React.Component {
                       {/* Single Input Area Start */}
                       <div className="col-12 wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
                         <div className="form-group">
-                          <textarea name="message" className="form-control" id="message" cols={30} rows={4} placeholder="Your Message *" required defaultValue={""}  />
+                          <textarea name="message" className="form-control" id="message" cols={30} rows={4} placeholder="Your Message *" required defaultValue={""} value={message} onChange={this.handleChange} />
                           {/* <textarea cols={50} rows={15} id="contactMessage"  defaultValue={""} name="message" value={message} onChange={this.handleChange}/> */}
                         </div>
                       </div>
