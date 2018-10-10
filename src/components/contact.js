@@ -105,15 +105,15 @@ class Contact extends React.Component {
 
               {/* Form Start*/}
               <div className="contact_from">
-              <form action method="post" id="contactForm" name="contactForm" onSubmit={this.handleSubmit}>
-                {/* <form action="#" method="post" onSubmit={this.handleSubmit}> */}
+                <form action method="post" id="contactForm" name="contactForm" onSubmit={this.handleSubmit}>
+                  {/* <form action="#" method="post" onSubmit={this.handleSubmit}> */}
                   {/* Message Input Area Start */}
                   <div className="contact_input_area">
                     <div className="row">
                       {/* Single Input Area Start */}
                       <div className="col-md-12 wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
                         <div className="form-group">
-                          <input type="text" className="form-control" name="name" id="name" placeholder="Your Name" required required value={name} onChange={this.handleChange}/>
+                          <input type="text" className="form-control" name="name" id="name" placeholder="Your Name" required required value={name} onChange={this.handleChange} />
                         </div>
                       </div>
                       {/* Single Input Area Start */}
@@ -127,7 +127,11 @@ class Contact extends React.Component {
                       {/* Single Input Area Start */}
                       <div className="col-12 wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
                         <div className="form-group">
-                          <textarea name="message" className="form-control" id="message" cols={30} rows={4} placeholder="Your Message *" required defaultValue={""} value={message} onChange={this.handleChange} />
+
+                          <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+                          <textarea cols={50} rows={15} id="contactMessage" defaultValue={""} name="message" value={message} onChange={this.handleChange} />
+
+                          {/* <textarea name="message" className="form-control" id="message" cols={30} rows={4} placeholder="Your Message *" required defaultValue={""} value={message} onChange={this.handleChange} /> */}
                           {/* <textarea cols={50} rows={15} id="contactMessage"  defaultValue={""} name="message" value={message} onChange={this.handleChange}/> */}
                         </div>
                       </div>
