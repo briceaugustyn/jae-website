@@ -10,6 +10,9 @@ Email: developermamunurrashid@gmail.com
 .menu_area .navbar-brand {
 		font-size: 35px;
 	}
+	.menu_area .navbar-brand-subtitle {
+		font-size: 25px;
+	}
     .header_area .menu_area #nav .nav-link {
         -webkit-transition-duration: 500ms;
         -o-transition-duration: 500ms;
@@ -48,7 +51,10 @@ Email: developermamunurrashid@gmail.com
 		text-align: center;
 		padding-top: 15px;
 	}
-	.menu_area .navbar-brand {
+	.menu_area . {
+		font-size: 48px;
+	}
+	.menu_area .-subtitle {
 		font-size: 48px;
 	}
 
@@ -103,6 +109,9 @@ Email: developermamunurrashid@gmail.com
 	}
 	.menu_area .navbar-brand {
 		font-size: 48px;
+	}
+	.menu_area .navbar-brand-subtitle {
+		font-size: 38px;
 	}
 
 	.header_area .menu_area #nav .nav-link,
@@ -265,6 +274,10 @@ Email: developermamunurrashid@gmail.com
 	.menu_area .navbar-brand {
 		font-size: 48px;
 	}
+	.menu_area .navbar-brand-subtitle {
+		font-size: 38px;
+	}
+	
 
 	.header_area .menu_area #nav .nav-link,
 	.header_area.sticky .menu_area #nav .nav-link {
@@ -297,9 +310,9 @@ Email: developermamunurrashid@gmail.com
 		text-align: center;
 		margin-top: 15px;
 	}
-		{
+		/* {
 		text-align: center;
-	}
+	} */
 
 	.header_area {
 		padding: 0;
@@ -309,6 +322,10 @@ Email: developermamunurrashid@gmail.com
 	}
 	.menu_area .navbar-brand {
 		font-size: 35px;
+		margin-left: 10px;
+	}
+	.menu_area .navbar-brand-subtitle {
+		font-size: 25px;
 		margin-left: 10px;
 	}
 
@@ -420,6 +437,11 @@ Email: developermamunurrashid@gmail.com
 	}
 	.header_area .menu_area .navbar-brand {
 		margin-left: 10px;
+		
+	}
+	.header_area .menu_area .navbar-brand-subtitle {
+		margin-left: 8px;
+		
 	}
 }
 

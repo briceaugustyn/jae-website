@@ -1,11 +1,11 @@
 import React from 'react';
 
-class Header extends React.Component{
-    render() {
-        
-      return (
-  
-        <header className="header_area animated">
+class Header extends React.Component {
+  render() {
+
+    return (
+
+      <header className="header_area animated">
         <div className="container-fluid">
           <div className="row align-items-center p-0">
             {/* Menu Area Start */}
@@ -13,10 +13,17 @@ class Header extends React.Component{
               <div className="menu_area">
                 <nav className="navbar navbar-expand-xl navbar-light p-0" data-spy="affix" data-offset-top={17}>
                   {/* Logo */}
-                  
-                  <a className="navbar-brand" href="index.html">Adaptive Quality Systems LLC</a>
+
+                  <div class="row">
+                    <div class="col-2"><img className="img-fluid" src="img/bg-img/aqslogo.png" alt /></div>
+                    <div class="col-6">
+                    <a className="navbar-brand" href="index.html">Adaptive Quality Systems, LLC </a>
+                  <a className="navbar-brand-subtitle" href="index.html">Audits and Training</a> 
+                  </div>
                   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon" /></button>
-                  {/* Menu Area */}
+                    
+                    <div class="col-4">
+                    {/* Menu Area */}
                   <div className="collapse navbar-collapse" id="ca-navbar">
                     <ul className="navbar-nav ml-auto" id="nav">
                       <li className="nav-item active"><a className="nav-link" href="#home">Home</a>
@@ -41,6 +48,14 @@ class Header extends React.Component{
                       <a href="#">Sign Up Free</a>
                     </div> */}
                   </div>
+                    </div>
+                  </div>
+
+                  {/* <div className="single-shot">
+                    <img className="img-fluid" src="img/bg-img/aqslogo.png" alt />
+                  </div> */}
+                  
+                  
                 </nav>
               </div>
             </div>
@@ -54,8 +69,8 @@ class Header extends React.Component{
         </div>
       </header>
 
-        
-        );  
-    }
-  };
-   export default Header;
+
+    );
+  }
+};
+export default Header;
