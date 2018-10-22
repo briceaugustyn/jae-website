@@ -14,6 +14,7 @@ import News from './components/news';
 import Footer from './components/footer';
 import Audit from './components/audit';
 import Training from './components/training';
+import Test from './components/test1';
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
         <News />
         <Audit />
         <Training />
+        <Test />
         <Contact /> 
         <Footer />
       </div>
