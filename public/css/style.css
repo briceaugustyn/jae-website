@@ -2531,6 +2531,16 @@ section#news {
 .h-list li {
 	display: inline-block;
 }
+
+.list-jae li {
+	list-style-type: circle;
+	color: #726a84;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+}
 .modal.fade .modal-dialog {
 	-webkit-transform: translate(0);
 	-moz-transform: translate(0);

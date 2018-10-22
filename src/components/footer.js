@@ -18,10 +18,10 @@ class Footer extends React.Component{
         <div className="footer-menu">
           <nav>
             <ul>
-              <li><a href="#">About</a></li>
+              <li><a href="#about">About</a></li>
               <li><a href="#">Terms &amp; Conditions</a></li>
               <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
         </div>

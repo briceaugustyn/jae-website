@@ -9,7 +9,7 @@ class Welcome extends React.Component{
           <div className="row">
             <div className="col-lg-12">
               <div className="wellcome-heading  mt-220 text-center">
-                <h2>ADQS</h2>
+                <h2>ADQMS</h2>
                 <h3 className="mt-220">A</h3>
                 <p>Quality Management Systems & Business Process Management Consulting</p>
               </div>
@@ -44,6 +44,10 @@ class Welcome extends React.Component{
           </div>
         </div>
       </section>
+
+
+
+
         
         );  
     }

@@ -29,7 +29,7 @@ class Header extends React.Component {
                         <ul className="navbar-nav ml-auto" id="nav">
                           <li className="nav-item active"><a className="nav-link" href="#home">Home</a>
                           </li>
-                          <li className="nav-item"><a className="nav-link" href="#intro">About us</a></li>
+                          <li className="nav-item"><a className="nav-link" href="#about">About us</a></li>
                           <li className="nav-item"><a className="nav-link" href="#audit">Audits</a></li>
                           <li className="nav-item"><a className="nav-link" href="#training">Training</a></li>
                           {/* <li className="nav-item"><a className="nav-link" href="#features">Features</a>
