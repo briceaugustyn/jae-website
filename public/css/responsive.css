@@ -436,8 +436,7 @@ Email: developermamunurrashid@gmail.com
 		font-size: 14px;
 	}
 	.header_area .menu_area .navbar-brand {
-		margin-left: 10px;
-		
+		margin-left: 8px;
 	}
 	.header_area .menu_area .navbar-brand-subtitle {
 		margin-left: 8px;
@@ -603,7 +602,7 @@ Email: developermamunurrashid@gmail.com
 		margin-top: 150px;
 	}
 	.header_area.sticky .menu_area .navbar-brand {
-		font-size: 18px;
+		font-size: 12px;
 	}
 	.wellcome-heading,
 	.single-cool-fact {

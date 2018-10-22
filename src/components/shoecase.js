@@ -23,6 +23,12 @@ class Shoecase extends React.Component {
             </div>
             <div className="col-md-6">
               <h3 className="section-heading m-b-25 global_color_1 font-35 wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">What is ADQMS?</h3>
+                            
+              <ul type="disc">
+                <li>20 plus years of experience in Aviation, Space, and Defense Industry</li>
+                <li>Over 300 company visits in various products and services</li>
+                <li>Business continuity and longevity with our clients</li>
+              </ul> 
               <p className="type-gray-1 m-b-40 wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
                 Adaptive Quality Systems was founded by Jason Lee. Jason, a born engineer, thrives on generating and implementing innovative ideas. In 2001, Jason earned a double major Bachelors degree in Electrical Engineering and Mechanical engineering from Brunel University, London, UK, one of the top engineering schools in the country. While still working on his degree, he was hired as a developmental engineer for a leading research group in the oil industry.
                 Jason has been working in the Aviation, Space and Defense Industry since 1999, where he has been managing and engineering projects for developing custom-made automatic processing equipments, implementing roust electrical test systems, and developing processes for day-to-day activities and for continuous improvements. Over the past few years, his achievements in the aerospace manufacturing industry have totaled several million dollars worth of cost savings.

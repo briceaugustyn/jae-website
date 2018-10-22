@@ -424,7 +424,7 @@ p {
 	padding: 0;
 }
 .menu_area .navbar-brand-subtitle {
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 700;
 	color: #fff;
 	margin: 0;
@@ -556,12 +556,12 @@ p {
 }
 
 .header_area .menu_area .navbar-brand {
-	font-size: 18px;
-	margin-left: 30px;
+	font-size: 12px;
+	margin-left: 10px;
 }
 .header_area .menu_area .navbar-brand-subtitle {
-	font-size: 14px;
-	margin-left: 30px;
+	font-size: 10px;
+	margin-left: 10px;
 }
 
 .header_area.sticky .menu_area #nav .nav-link {
