@@ -15,14 +15,14 @@ class Header extends React.Component {
                   {/* Logo */}
 
                   <div class="row">
-                    <div class="col-3">
-                    <img className="img-fluid" src="img/bg-img/aqslogo2.png" alt />
-                    </div>
-                    <div class="col-6">
-                      <a className="navbar-brand" href="index.html">Adaptive Quality Systems, LLC </a>
-                      <a className="navbar-brand-subtitle" href="index.html">Audits and Training</a>
-                    </div>
-                    <div class="col-3">
+                    {/* <div class="col-3">
+                    {/* <img className="img-fluid" src="img/bg-img/aqslogo2.png" alt /> */}
+                    {/* </div> */}
+                    {/* <div class="col-6">
+                      <a className="navbar-brand" href="index.html"></a>
+                      <a className="navbar-brand-subtitle" href="index.html"></a>
+                    </div>  */}
+                    <div class="col-12">
                       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon" /></button>
                       {/* Menu Area */}
                       <div className="collapse navbar-collapse" id="ca-navbar">
