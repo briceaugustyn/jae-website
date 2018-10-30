@@ -25,9 +25,8 @@ class App extends Component {
         <Shoecase />
         <News />
         <Audit />
-        <Training />
+        {/* <Training /> */}
         <Test />
-        < Feature />
         <Contact /> 
         <Footer />
       </div>

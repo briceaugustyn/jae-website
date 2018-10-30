@@ -5,7 +5,7 @@ class Team extends React.Component {
 
     return (
 
-      <section className="special-area bg-white section_padding_100" id="audit">
+      <section className="special-area bg-white section_padding_100" id="features">
         <div className="container">
           <div className="row">
             <div className="col-12">
