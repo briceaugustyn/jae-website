@@ -14,7 +14,7 @@ class Shoecase extends React.Component {
             <div className="section-heading text-center text-uppercase wow bounceIn" data-wow-offset={150} data-wow-duration=".8s" data-wow-delay=".2s">
               <h2>About Us</h2>
               <div className="line-shape" />
-              <img className="img-fluid" src="img/bg-img/aqslogo2.png" alt />
+              <img className="img-fluid" src="img/bg-img/aqslogo3.png" alt />
             </div>
 
 

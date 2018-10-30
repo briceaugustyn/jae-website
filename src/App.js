@@ -27,6 +27,7 @@ class App extends Component {
         <Audit />
         <Training />
         <Test />
+        < Feature />
         <Contact /> 
         <Footer />
       </div>

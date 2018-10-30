@@ -61,10 +61,9 @@ opacity: .9;
 	top: 0;
 	left: 0;
 	background-image: -moz-linear-gradient( -29deg, rgb(3, 46, 82) 0%, rgb(8, 168, 184) 100%);
-	background-image: -webkit-linear-gradient( -29deg, rgb(3, 46, 82) 0%, rgb(8, 168, 184) 100%);
+	background-image: -webkit-linear-gradient( -29deg, rgb(3, 46, 82) 0%, rgb(34, 8, 184) 100%);
 	background-image: -ms-linear-gradient( -29deg, rgb(3, 46, 82) 0%, rgb(8, 168, 184) 100%);
-opacity: .9;
-
+	opacity: .9;
 }
 /* feture area end*/
 
