@@ -5,115 +5,245 @@ class Team extends React.Component {
 
     return (
 
-      <section className="special-area bg-white section_padding_100" id="features">
-        <div className="container">
+
+      <section id="features" className="main-section center-align section_padding_100 bg-white">
+      <div className="container">
           <div className="row">
-            <div className="col-12">
-              {/* Section Heading Area */}
-              <div className="section-heading text-center text-uppercase wow bounceIn" data-wow-offset={150} data-wow-duration=".8s" data-wow-delay=".2s">
-                <h2>Audit Services</h2>
-                <div className="line-shape" />
+              <div className="col-12 text-center">
+                  {/* Heading Text  */}
+                  <div className="section-heading text-uppercasewow bounceIn" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
+                      <h2>Audit Services</h2>
+                      <div className="line-shape" />
+                  </div>
               </div>
-            </div>
           </div>
-          <div className="row">
-            {/* Single Special Area */}
+          {/* Owl Team Slider */}
+          <div className="center-align owl-carousel owl-teams">
+              {/* Single Team Container */}
+              <div className="team-member ">
+                  {/* <figure> */}
+                  {/* Team Image */}
+                  {/* <img className="responsive-img" src="images/rcca.jpeg" alt="news image" />
+      <figcaption className="team_bgcolor">
+      </figcaption> */}
+                  {/* </figure> */}
+                  <div className="name p-b-1">
+                      <div className="container">
+                          <div className="row">
+                              <div className="col-12">
+                                  {/* Section Heading Area */}
+                                  {/* <div className="section-heading text-center text-uppercase wow bounceIn" data-wow-offset={150} data-wow-duration=".8s" data-wow-delay=".2s">
+    <h2>About Us</h2>
+    <div className="line-shape" />
+  </div> */}
 
-            <div className="col-6 col-md-6">
-              <div className="col-12 col-md-4">
-                <div className="single-special text-center wow fadeInLeft" data-wow-offset={20} data-wow-duration=".8s" data-wow-delay=".2s">
-                  {/* <div className="single-icon">
-                  <i className="ti-mobile" aria-hidden="true" />
-                </div> */}
-                  <h4>Internal Audit Services </h4>
-                  <p>Adding Value beyond ‘Do what you say, and say what you do’</p>
-                </div>
-              </div>
-              {/* Single Special Area */}
-              <div className="col-12 col-md-4">
-                <div className="single-special single-special-two text-center  wow fadeInUp" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
-                  {/* <div className="single-icon">
-                    <i className="ti-ruler-pencil" aria-hidden="true" />
-                  </div> */}
-                  {/* <h4>Powerful Design</h4> */}
-                  <p>Pragmatic approaches in establishing system compliance and effectiveness verification</p>
-                </div>
-              </div>
-              {/* Single Special Area */}
-              <div className="col-12 col-md-4">
-                <div className="single-special text-center wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
-                  {/* <div className="single-icon">
-                  <i className="ti-settings" aria-hidden="true" />
-                </div>
-                <h4>Customizability</h4> */}
-                  <p>Holistic approaches in consulting and benchmarking.</p>
-                </div>
-              </div>
-              
-            </div>
+                              </div>
+                          </div>
+                          <div className="row">
+                              {/* Single Special Area */}
+                              <div className="col-12 col-md-4">
+                                  <div className="single-special text-center wow fadeInLeft" data-wow-offset={20} data-wow-duration=".8s" data-wow-delay=".2s">
+                                      {/* <div className="single-icon">
+      <i className="ti-mobile" aria-hidden="true" />
+    </div> */}
+                                      {/* <h4>Expertise</h4> */}
 
 
+                                      {/* <p>20 plus years of experience in Aviation, Space, and Defense Industry</p> */}
+                                  </div>
+                              </div>
+                              {/* Single Special Area */}
+                              <div className="col-12 col-md-4">
+                                  <div className="single-special single-special-two text-center  wow fadeInUp" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
+                                      {/* <div className="single-icon">
+      <i className="ti-ruler-pencil" aria-hidden="true" />
+    </div>  */}
+                                      {/* <h4>Powerful Design</h4> */}
+                                      <div className="list-audit">
+                                          <li>Internal Audit Services</li>
+                                      </div>
+                                      {/* <p>Over 300 company visits in various products and services</p> */}
+                                  </div>
+                              </div>
+                              {/* Single Special Area */}
+                              <div className="col-12 col-md-4">
+                                  <div className="single-special text-center wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
+                                      {/* <div className="single-icon">
+      <i className="ti-settings" aria-hidden="true" />
+    </div>
+    <h4>Customizability</h4> */}
+                                      <div className="list-audit">
+                                          <li>Adding Value beyond ‘Do what you say, and say what you do’</li>
+                                      </div>
+                                      {/* <p>Business continuity and longevity with our clients</p> */}
+                                  </div>
+                              </div>
 
-<div className="col-6 col-md-4">
-              <div className="col-12 col-md-6">
-                <div className="single-special text-center wow fadeInLeft" data-wow-offset={20} data-wow-duration=".8s" data-wow-delay=".2s">
-                  {/* <div className="single-icon">
-                  <i className="ti-mobile" aria-hidden="true" />
-                </div> */}
-                  <h4>Supplier Management Services</h4>
-                  <p>Product Audits</p>
-                </div>
+
+                              {/* Single Special Area */}
+                              <div className="col-12 col-md-4">
+                                  <div className="single-special text-center wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
+                                      {/* <div className="single-icon">
+      <i className="ti-settings" aria-hidden="true" />
+    </div>
+    <h4>Customizability</h4> */}
+                                      <div className="list-audit">
+                                          <li>Pragmatic approaches in establishing system compliance and effectiveness verification</li>
+                                      </div>
+                                      {/* <p>Business continuity and longevity with our clients</p> */}
+                                  </div>
+                              </div>
+
+
+                              {/* Single Special Area */}
+                              <div className="col-12 col-md-4">
+                                  <div className="single-special text-center wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
+                                      {/* <div className="single-icon">
+      <i className="ti-settings" aria-hidden="true" />
+    </div>
+    <h4>Customizability</h4> */}
+                                      <div className="list-audit">
+                                          <li>Holistic approaches in consulting and benchmarking</li>
+                                      </div>
+                                      {/* <p>Business continuity and longevity with our clients</p> */}
+                                  </div>
+                              </div>
+
+                          </div>
+                      </div>
+                  </div>
               </div>
-              {/* Single Special Area */}
-              <div className="col-12 col-md-4">
-                <div className="single-special single-special-two text-center  wow fadeInUp" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
-                  {/* <div className="single-icon">
-                    <i className="ti-ruler-pencil" aria-hidden="true" />
-                  </div> */}
-                  {/* <h4>Powerful Design</h4> */}
-                  <p>System Audits</p>
-                </div>
+
+
+
+              {/* Single Team Container */}
+              <div className="team-member ">
+                  {/* <figure> */}
+                  {/* Team Image */}
+                  {/* <img className="responsive-img" src="images/rcca.jpeg" alt="news image" />
+      <figcaption className="team_bgcolor">
+      </figcaption> */}
+                  {/* </figure> */}
+                  <div className="name p-b-1">
+                      <div className="container">
+                          <div className="row">
+                              <div className="col-12">
+                                  {/* Section Heading Area */}
+                                  {/* <div className="section-heading text-center text-uppercase wow bounceIn" data-wow-offset={150} data-wow-duration=".8s" data-wow-delay=".2s">
+    <h2>About Us</h2>
+    <div className="line-shape" />
+  </div> */}
+
+                              </div>
+                          </div>
+                          <div className="row">
+                              {/* Single Special Area */}
+                              <div className="col-12 col-md-4">
+                                  <div className="single-special text-center wow fadeInLeft" data-wow-offset={20} data-wow-duration=".8s" data-wow-delay=".2s">
+                                      {/* <div className="single-icon">
+      <i className="ti-mobile" aria-hidden="true" />
+    </div> */}
+                                      {/* <h4>Expertise</h4> */}
+
+
+                                      {/* <p>20 plus years of experience in Aviation, Space, and Defense Industry</p> */}
+                                  </div>
+                              </div>
+                              {/* Single Special Area */}
+                              <div className="col-12 col-md-4">
+                                  <div className="single-special single-special-two text-center  wow fadeInUp" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
+                                      {/* <div className="single-icon">
+      <i className="ti-ruler-pencil" aria-hidden="true" />
+    </div>  */}
+                                      {/* <h4>Powerful Design</h4> */}
+                                      <div className="list-audit">
+                                          <li>Supplier Management Services</li>
+                                      </div>
+                                      {/* <p>Over 300 company visits in various products and services</p> */}
+                                  </div>
+                              </div>
+                              {/* Single Special Area */}
+                              <div className="col-12 col-md-4">
+                                  <div className="single-special text-center wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
+                                      {/* <div className="single-icon">
+      <i className="ti-settings" aria-hidden="true" />
+    </div>
+    <h4>Customizability</h4> */}
+                                      <div className="list-audit">
+                                          <li>Product and System Audits</li>
+                                      </div>
+                                      {/* <p>Business continuity and longevity with our clients</p> */}
+                                  </div>
+                              </div>
+
+
+                              {/* Single Special Area */}
+                              <div className="col-12 col-md-4">
+                                  <div className="single-special text-center wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
+                                      {/* <div className="single-icon">
+      <i className="ti-settings" aria-hidden="true" />
+    </div>
+    <h4>Customizability</h4> */}
+                                      <div className="list-audit">
+                                          <li>Design activity oversights</li>
+                                      </div>
+                                      {/* <p>Business continuity and longevity with our clients</p> */}
+                                  </div>
+                              </div>
+
+
+
+
+                              {/* Single Special Area */}
+                              <div className="col-12 col-md-4">
+                                  <div className="single-special text-center wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
+                                      {/* <div className="single-icon">
+      <i className="ti-settings" aria-hidden="true" />
+    </div>
+    <h4>Customizability</h4> */}
+                                      <div className="list-audit">
+                                          <li>Total value stream audit services for all levels of supply chain</li>
+                                      </div>
+                                      {/* <p>Business continuity and longevity with our clients</p> */}
+                                  </div>
+                              </div>
+
+
+                              {/* Single Special Area */}
+                              <div className="col-12 col-md-4">
+                                  <div className="single-special text-center wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
+                                      {/* <div className="single-icon">
+      <i className="ti-settings" aria-hidden="true" />
+    </div>
+    <h4>Customizability</h4> */}
+                                      <div className="list-audit">
+                                          <li>Supplier Quality Activity Support</li>
+                                      </div>
+                                      {/* <p>Business continuity and longevity with our clients</p> */}
+                                  </div>
+                              </div>
+
+
+
+                          </div>
+                      </div>
+                  </div>
               </div>
-              {/* Single Special Area */}
-              <div className="col-12 col-md-4">
-                <div className="single-special text-center wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
-                  {/* <div className="single-icon">
-                  <i className="ti-settings" aria-hidden="true" />
-                </div>
-                <h4>Customizability</h4> */}
-                  <p>Design activity oversights</p>
-                </div>
-              </div>
-              {/* Single Special Area */}
-              <div className="col-12 col-md-4">
-                <div className="single-special text-center wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
-                  {/* <div className="single-icon">
-                  <i className="ti-settings" aria-hidden="true" />
-                </div>
-                <h4>Customizability</h4> */}
-                  <p>Total value stream audit services for all levels of supply chain.</p>
-                </div>
-              </div>
-              {/* Single Special Area */}
-              <div className="col-12 col-md-4">
-                <div className="single-special text-center wow fadeInRight" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
-                  {/* <div className="single-icon">
-                  <i className="ti-settings" aria-hidden="true" />
-                </div>
-                <h4>Customizability</h4> */}
-                  <p>Supplier Quality Activity Support</p>
-                </div>
-              </div>
-              
-            </div>
+
+
+
+
+
+
 
 
 
           </div>
+      </div>
+  </section>
 
 
-        </div>
-      </section>
+      
       // <section id="audit" className="main-section center-align section_padding_100 bg-white">
       //         <div className="container">
       //           <div className="row">
