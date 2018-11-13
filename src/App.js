@@ -15,6 +15,7 @@ import Footer from './components/footer';
 import Audit from './components/audit';
 import Training from './components/training';
 import Test from './components/test1';
+import Feedback2 from './components/feedback2';
 
 class App extends Component {
   render() {
@@ -22,7 +23,8 @@ class App extends Component {
       <div className="App">
         <Header />
         <Welcome />
-        <Shoecase />
+        <Feedback2 />
+        {/* <Shoecase /> */}
         <News />
         <Audit />
         {/* <Training /> */}
