@@ -25,10 +25,10 @@ class App extends Component {
         <Welcome />
         <Feedback2 />
         {/* <Shoecase /> */}
-        <News />
-        <Audit />
+        {/* <News />
+        <Audit /> */}
         {/* <Training /> */}
-        <Test />
+        {/* <Test /> */}
         <Contact /> 
         <Footer />
       </div>
