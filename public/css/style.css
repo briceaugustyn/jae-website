@@ -2533,7 +2533,7 @@ section#news {
 	display: inline-block;
 }
 
-.list-jae li {
+.list-jae {
 	list-style-type: disc;
 	color: #726a84;
 	font-size: 20px;
