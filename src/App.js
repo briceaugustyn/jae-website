@@ -16,6 +16,8 @@ import Audit from './components/audit';
 import Training from './components/training';
 import Test from './components/test1';
 import Feedback2 from './components/feedback2';
+import Carousel from './components/carousel';
+import Team from './components/team';
 
 class App extends Component {
   render() {
@@ -23,12 +25,15 @@ class App extends Component {
       <div className="App">
         <Header />
         <Welcome />
-        <Feedback2 />
+        {/* <Feedback2 /> */}
         {/* <Shoecase /> */}
         {/* <News />
         <Audit /> */}
         {/* <Training /> */}
         {/* <Test /> */}
+        {/* <Carousel />  */}
+        {/* <Feedback />  */}
+        <Team /> 
         <Contact /> 
         <Footer />
       </div>

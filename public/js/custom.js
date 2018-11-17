@@ -50,21 +50,25 @@
 		responsiveClass: !0,
 		dots: !0,
 		margin: 20,
-		nav: !1,
+		nav: false,
 		stagePadding: 10,
+		navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
 		responsive: {
 			0: {
 				items: 1,
 				margin: 300
 			},
 			500: {
-				items: 2
+				items: 1
 			},
 			992: {
-				items: 3
+				items: 1
 			}
 		}
 	});
+
+
+
 
 	$(".app_screenshots_slides").owlCarousel({
 		items: 1,
