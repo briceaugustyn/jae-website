@@ -40,7 +40,7 @@ class Feedback4 extends React.Component {
 
                 <div className="client-thumbnail list-jae">
                 <i class="iconbox-icon fa fa-check"></i>
-                  <span class="list-jae text-center">Adding Value beyond ‘Do what you say, and say what you do</span>
+                  <span class="list-jae text-center">Adding Value beyond ‘Do what you say, and say what you do'</span>
                 </div>
                 <div className="client-thumbnail list-jae">
                 <i class="iconbox-icon fa fa-check"></i>

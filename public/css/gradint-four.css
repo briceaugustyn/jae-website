@@ -162,6 +162,14 @@ opacity: .9;
   background-attachment: fixed;
   position: relative;
 }
+
+.footer-education-area{
+	background: url(../img/bg-img/aqslogo.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+  }
+
 .footer-contact-area::before{
 	position: absolute;
 	content: " ";

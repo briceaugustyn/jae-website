@@ -1452,8 +1452,8 @@ section#testimonials {
 	background-color: #fff;
 	height: 100%;
 	text-align: center;
-	font-size: 24px;
-	color: #ef0c0c;
+	font-size: 40px;
+	color: #a49fba;
 	display: block;
 	line-height: 550%;
 	left: 0;
@@ -1461,7 +1461,7 @@ section#testimonials {
 	cursor: pointer;
 }
 
-.clients-feedback-area .slick-arrow.fa-angle-right {
+.clients-feedback-area .fa-angle-right {
 	left: auto;
 	right: 0;
 	top: 0;

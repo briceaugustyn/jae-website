@@ -61,7 +61,7 @@ class Feedback3 extends React.Component {
 
 <div className="client-thumbnail list-jae">
                 <i class="iconbox-icon fa fa-check"></i>
-                  <span class="list-jae text-center">100% customer Satisfaction</span>
+                  <span class="list-jae text-center">How to implement sustainable AS9100 System and its practices</span>
                 </div>
 
 
