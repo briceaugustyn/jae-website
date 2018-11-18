@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Feedback2 extends React.Component {
+class Feedback4 extends React.Component {
   render() {
 
     return (
@@ -13,7 +13,7 @@ class Feedback2 extends React.Component {
             <div className="col-12 text-center">
               {/* Heading Text  */}
               <div className="section-heading text-uppercase wow bounceIn" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
-                <h2>About Us</h2>
+                <h2>Internal Audit Services</h2>
                 <img className="img-fluid" src="img/bg-img/aqslogo3.png" alt />
                 {/* <div className="line-shape" /> */}
               </div>
@@ -40,20 +40,30 @@ class Feedback2 extends React.Component {
 
                 <div className="client-thumbnail list-jae">
                 <i class="iconbox-icon fa fa-check"></i>
-                  <span class="list-jae text-center">Over 300 company visits in various products and services</span>
+                  <span class="list-jae text-center">Adding Value beyond ‘Do what you say, and say what you do</span>
                 </div>
                 <div className="client-thumbnail list-jae">
                 <i class="iconbox-icon fa fa-check"></i>
-                  <span class="list-jae text-center">Business continuity and longevity with our clients</span>
+                  <span class="list-jae text-center">Pragmatic approaches in establishing system compliance and effectiveness verification</span>
                 </div>
                 <div className="client-thumbnail list-jae">
                 <i class="iconbox-icon fa fa-check"></i>
-                  <span class="list-jae text-center">Engineering/Management disciplined trainers and auditors</span>
+                  <span class="list-jae text-center">Holistic approaches in consulting and benchmarking</span>
                 </div>
                 <div className="client-thumbnail list-jae">
                 <i class="iconbox-icon fa fa-check"></i>
-                  <span class="list-jae text-center">Engineering/Management disciplined trainers and auditors</span>
+                  <span class="list-jae text-center">Aerospace First Article Inspection Requirement AS9102B</span>
                 </div>
+                <div className="client-thumbnail list-jae">
+                <i class="iconbox-icon fa fa-check"></i>
+                  <span class="list-jae text-center">Aerospace Contract Clauses ARP9009</span>
+                </div>
+
+<div className="client-thumbnail list-jae">
+                <i class="iconbox-icon fa fa-check"></i>
+                  <span class="list-jae text-center">100% customer Satisfaction</span>
+                </div>
+
 
               </div>
             </div>
@@ -110,4 +120,4 @@ class Feedback2 extends React.Component {
     );
   }
 };
-export default Feedback2;
+export default Feedback4;

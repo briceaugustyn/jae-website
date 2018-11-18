@@ -16,6 +16,9 @@ import Audit from './components/audit';
 import Training from './components/training';
 import Test from './components/test1';
 import Feedback2 from './components/feedback2';
+import Feedback3 from './components/feedback3';
+import Feedback4 from './components/feedback4';
+import Feedback5 from './components/feedback5';
 import Carousel from './components/carousel';
 import Team from './components/team';
 
@@ -25,7 +28,10 @@ class App extends Component {
       <div className="App">
         <Header />
         <Welcome />
-        {/* <Feedback2 /> */}
+        <Feedback2 />
+        <Feedback3 />
+        <Feedback4 />
+        <Feedback5 />
         {/* <Shoecase /> */}
         {/* <News />
         <Audit /> */}
@@ -33,7 +39,7 @@ class App extends Component {
         {/* <Test /> */}
         {/* <Carousel />  */}
         {/* <Feedback />  */}
-        <Team /> 
+        {/* <Team />  */}
         <Contact /> 
         <Footer />
       </div>

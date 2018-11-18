@@ -45,13 +45,29 @@
 		animateIn: "bounceInLeft"
 	});
 
+	// slidesToShow: 1,
+	// slidesToScroll: 1,
+	// speed: 500,
+	// asNavFor: '.slider-for',
+	// dots: true,
+	// centerMode: true,
+	// focusOnSelect: true,
+	// slide: 'div',
+	// autoplay: true,
+	// centerMode: true,
+	// centerPadding: '30px',
+	// mobileFirst: true,
+	// prevArrow: '<i class="fa fa-angle-left"></i>',
+	// nextArrow: '<i class="fa fa-angle-right"></i>'
+
 	$(".owl-news, .owl-teams").owlCarousel({
+		
 		loop: !0,
-		responsiveClass: !0,
-		dots: !0,
-		margin: 20,
-		nav: false,
-		stagePadding: 10,
+		// responsiveClass: !0,
+		dots: true,
+		// margin: 20,
+		nav: true,
+		// stagePadding: 10,
 		navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
 		responsive: {
 			0: {
@@ -70,26 +86,26 @@
 
 
 
-	$(".app_screenshots_slides").owlCarousel({
-		items: 1,
-		loop: true,
-		autoplay: true,
-		smartSpeed: 800,
-		margin: 30,
-		center: true,
-		dots: true,
-		responsive: {
-			0: {
-				items: 1
-			},
-			480: {
-				items: 3
-			},
-			992: {
-				items: 5
-			}
-		}
-	});
+	// $(".app_screenshots_slides").owlCarousel({
+	// 	items: 1,
+	// 	loop: true,
+	// 	autoplay: true,
+	// 	smartSpeed: 800,
+	// 	margin: 30,
+	// 	center: true,
+	// 	dots: true,
+	// 	responsive: {
+	// 		0: {
+	// 			items: 1
+	// 		},
+	// 		480: {
+	// 			items: 3
+	// 		},
+	// 		992: {
+	// 			items: 5
+	// 		}
+	// 	}
+	// });
 
 	// venobox
 	$('.venobox_video').venobox({
@@ -107,7 +123,7 @@
 	});
 
 	$('.slider-nav').slick({
-		slidesToShow: 3,
+		slidesToShow: 1,
 		slidesToScroll: 1,
 		speed: 500,
 		asNavFor: '.slider-for',

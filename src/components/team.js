@@ -33,27 +33,28 @@ class Team extends React.Component {
   </div> */}
 
 
-                
-                    <div className="center-align owl-carousel owl-teams">
+                    {/* slider-nav slider owl-carousel wow fadeInUp */}
+                    <div className="center-align slider owl-carousel owl-teams slick-initialized slick-slider slick-dotted">
 
-                     
+
+                        <div className="client-thumbnail list-jae">
+                            <p class="text-center">
+                                <i class="iconbox-icon fa fa-check"></i>
+                                <span class="list-jae text-center">Over 300 company visits in various products and services</span>
+                            </p>
+                        </div>
 
                         <p class="client-thumbnail list-jae text-center">
-                            <i class="iconbox-icon fa fa-check"></i>
-                            <span class="list-jae text-center">Over 300 company visits in various products and services</span>
-                        </p>
-
-                         <p class="client-thumbnail list-jae text-center">
                             <i class="iconbox-icon fa fa-check"></i>
                             <span class="list-jae text-center">Business continuity and longevity with our clients</span>
                         </p>
 
-                         <p class="client-thumbnail list-jae text-center">
+                        <p class="client-thumbnail list-jae text-center">
                             <i class="iconbox-icon fa fa-check"></i>
                             <span class="list-jae text-center">100% customer Satisfaction</span>
                         </p>
 
-                       
+
 
                     </div>
 
