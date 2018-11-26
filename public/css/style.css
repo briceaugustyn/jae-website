@@ -1426,7 +1426,7 @@ section#testimonials {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	height: 240px;
+	height: 380px;
 }
 
 
@@ -1454,7 +1454,7 @@ section#testimonials {
 	font-size: 40px;
 	color: #a49fba;
 	display: block;
-	line-height: 550%;
+	line-height: 900%;/* arrow height */
 	left: 0;
 	z-index: 90;
 	cursor: pointer;
