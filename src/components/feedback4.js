@@ -13,8 +13,8 @@ class Feedback4 extends React.Component {
             <div className="col-12 text-center">
               {/* Heading Text  */}
               <div className="section-heading text-uppercase wow bounceIn" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
-                <h2>Internal Audit Services</h2>
-                <img className="img-fluid" src="img/bg-img/aqslogo3.png" alt />
+                <h2>Supplier Management Services</h2>
+
                 {/* <div className="line-shape" /> */}
               </div>
             </div>
@@ -33,36 +33,37 @@ class Feedback4 extends React.Component {
 
 
 
-{/* "center-align slider owl-carousel owl-teams" */}
-              <div className="slider-nav slider owl-carousel wow fadeInUp" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
+              {/* "center-align slider owl-carousel owl-teams" */}
+              <div className="slider-nav2 slider owl-carousel wow fadeInUp" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
 
                 {/* center-align owl-carousel owl-teams owl-loaded owl-drag      */}
 
                 <div className="client-thumbnail list-jae">
-                <i class="iconbox-icon fa fa-check"></i>
-                  <span class="list-jae text-center">Adding Value beyond ‘Do what you say, and say what you do'</span>
+                  <i class="iconbox-icon fa fa-check"></i>
+                  <span class="list-jae text-center">Product Audits</span>
                 </div>
                 <div className="client-thumbnail list-jae">
-                <i class="iconbox-icon fa fa-check"></i>
-                  <span class="list-jae text-center">Pragmatic approaches in establishing system compliance and effectiveness verification</span>
-                </div>
-                <div className="client-thumbnail list-jae">
-                <i class="iconbox-icon fa fa-check"></i>
-                  <span class="list-jae text-center">Holistic approaches in consulting and benchmarking</span>
-                </div>
-                <div className="client-thumbnail list-jae">
-                <i class="iconbox-icon fa fa-check"></i>
-                  <span class="list-jae text-center">Aerospace First Article Inspection Requirement AS9102B</span>
-                </div>
-                <div className="client-thumbnail list-jae">
-                <i class="iconbox-icon fa fa-check"></i>
-                  <span class="list-jae text-center">Aerospace Contract Clauses ARP9009</span>
+                  <i class="iconbox-icon fa fa-check"></i>
+                  <span class="list-jae text-center">System Audits</span>
                 </div>
 
-<div className="client-thumbnail list-jae">
-                <i class="iconbox-icon fa fa-check"></i>
-                  <span class="list-jae text-center">100% customer Satisfaction</span>
+                <div className="client-thumbnail list-jae">
+                  <i class="iconbox-icon fa fa-check"></i>
+                  <span class="list-jae text-center">Design activity oversights</span>
                 </div>
+
+                <div className="client-thumbnail list-jae">
+                  <i class="iconbox-icon fa fa-check"></i>
+                  <span class="list-jae text-center">Total value stream audit services for all levels of supply chain.</span>
+                </div>
+
+                <div className="client-thumbnail list-jae">
+                  <i class="iconbox-icon fa fa-check"></i>
+                  <span class="list-jae text-center">Supplier Quality Activity Support</span>
+                </div>
+
+
+
 
 
               </div>

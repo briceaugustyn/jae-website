@@ -33,26 +33,34 @@ class Feedback2 extends React.Component {
 
 
 
-{/* "center-align slider owl-carousel owl-teams" */}
+              {/* "center-align slider owl-carousel owl-teams" */}
               <div className="slider-nav slider owl-carousel wow fadeInUp" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
 
                 {/* center-align owl-carousel owl-teams owl-loaded owl-drag      */}
 
                 <div className="client-thumbnail list-jae">
-                <i class="iconbox-icon fa fa-check"></i>
+                  <i class="iconbox-icon fa fa-check"></i>
+                  <span class="list-jae text-center">20 plus years of experience in Aviation, Space, and Defense Industry</span>
+                </div>
+                <div className="client-thumbnail list-jae">
+                  <i class="iconbox-icon fa fa-check"></i>
                   <span class="list-jae text-center">Over 300 company visits in various products and services</span>
                 </div>
                 <div className="client-thumbnail list-jae">
-                <i class="iconbox-icon fa fa-check"></i>
+                  <i class="iconbox-icon fa fa-check"></i>
                   <span class="list-jae text-center">Business continuity and longevity with our clients</span>
                 </div>
                 <div className="client-thumbnail list-jae">
-                <i class="iconbox-icon fa fa-check"></i>
+                  <i class="iconbox-icon fa fa-check"></i>
+                  <span class="list-jae text-center">100% customer Satisfaction</span>
+                </div>
+                <div className="client-thumbnail list-jae">
+                  <i class="iconbox-icon fa fa-check"></i>
                   <span class="list-jae text-center">Engineering/Management disciplined trainers and auditors</span>
                 </div>
                 <div className="client-thumbnail list-jae">
-                <i class="iconbox-icon fa fa-check"></i>
-                  <span class="list-jae text-center">Engineering/Management disciplined trainers and auditors</span>
+                  <i class="iconbox-icon fa fa-check"></i>
+                  <span class="list-jae text-center">Online Aerospace Supplier Information System (OASIS) registered Aerospace Experienced Auditors</span>
                 </div>
 
               </div>

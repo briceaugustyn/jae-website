@@ -45,6 +45,18 @@
 		animateIn: "bounceInLeft"
 	});
 
+	$(".welcome_slides2").owlCarousel({
+		loop: !0,
+		responsiveClass: !0,
+		items: 1,
+		nav: !1,
+		dots: !0,
+		autoplay: !0,
+		margin: 20,
+		animateOut: "bounceOutRight",
+		animateIn: "bounceInLeft"
+	});
+
 	// slidesToShow: 1,
 	// slidesToScroll: 1,
 	// speed: 500,
@@ -132,6 +144,24 @@
 		focusOnSelect: true,
 		slide: 'div',
 		autoplay: true,
+		centerMode: true,
+		centerPadding: '30px',
+		mobileFirst: true,
+		prevArrow: '<i class="fa fa-angle-left"></i>',
+		nextArrow: '<i class="fa fa-angle-right"></i>'
+	});
+
+
+	$('.slider-nav2').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		speed: 500,
+		asNavFor: '.slider-for',
+		dots: true,
+		centerMode: true,
+		focusOnSelect: true,
+		slide: 'div',
+		autoplay: false,
 		centerMode: true,
 		centerPadding: '30px',
 		mobileFirst: true,

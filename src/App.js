@@ -19,6 +19,7 @@ import Feedback2 from './components/feedback2';
 import Feedback3 from './components/feedback3';
 import Feedback4 from './components/feedback4';
 import Feedback5 from './components/feedback5';
+import Feedback6 from './components/feedback6';
 import Carousel from './components/carousel';
 import Team from './components/team';
 
@@ -32,6 +33,8 @@ class App extends Component {
         <Feedback3 />
         <Feedback4 />
         <Feedback5 />
+        <Feedback6 />
+        
         {/* <Shoecase /> */}
         {/* <News />
         <Audit /> */}

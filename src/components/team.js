@@ -40,6 +40,13 @@ class Team extends React.Component {
                         <div className="client-thumbnail list-jae">
                             <p class="text-center">
                                 <i class="iconbox-icon fa fa-check"></i>
+                                <span class="list-jae text-center">20 plus years of experience in Aviation, Space, and Defense Industry</span>
+                            </p>
+                        </div>
+
+                        <div className="client-thumbnail list-jae">
+                            <p class="text-center">
+                                <i class="iconbox-icon fa fa-check"></i>
                                 <span class="list-jae text-center">Over 300 company visits in various products and services</span>
                             </p>
                         </div>
@@ -52,6 +59,18 @@ class Team extends React.Component {
                         <p class="client-thumbnail list-jae text-center">
                             <i class="iconbox-icon fa fa-check"></i>
                             <span class="list-jae text-center">100% customer Satisfaction</span>
+                        </p>
+
+
+                         <p class="client-thumbnail list-jae text-center">
+                            <i class="iconbox-icon fa fa-check"></i>
+                            <span class="list-jae text-center">Engineering/Management disciplined trainers and auditors</span>
+                        </p>
+
+
+                         <p class="client-thumbnail list-jae text-center">
+                            <i class="iconbox-icon fa fa-check"></i>
+                            <span class="list-jae text-center">Online Aerospace Supplier Information System (OASIS) registered Aerospace Experienced Auditors</span>
                         </p>
 
 

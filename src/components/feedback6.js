@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Feedback5 extends React.Component {
+class Feedback6 extends React.Component {
   render() {
 
     return (
@@ -13,7 +13,7 @@ class Feedback5 extends React.Component {
             <div className="col-12 text-center">
               {/* Heading Text  */}
               <div className="section-heading text-uppercase wow bounceIn" data-wow-offset={200} data-wow-duration=".8s" data-wow-delay=".2s">
-                <h2>Education and training</h2>
+                <h2>Training Topics being offered</h2>
 
                 {/* <div className="line-shape" /> */}
               </div>
@@ -40,13 +40,29 @@ class Feedback5 extends React.Component {
 
 
 
-                <div className="client-thumbnail list-jae">
+
+       
+       <div className="client-thumbnail list-jae">
                   <i class="iconbox-icon fa fa-check"></i>
-                  <span class="list-jae text-center">Customer training solution for class room training sessions</span>
+                  <span class="list-jae text-center">AS9100 Internal auditor training</span>
                 </div>
                 <div className="client-thumbnail list-jae">
                   <i class="iconbox-icon fa fa-check"></i>
-                  <span class="list-jae text-center">Aviation, Space and Defense Industry targeted online training & continual development programs</span>
+                  <span class="list-jae text-center">How to implement sustainable AS9100 System and its practices</span>
+                </div>
+                <div className="client-thumbnail list-jae">
+                  <i class="iconbox-icon fa fa-check"></i>
+                  <span class="list-jae text-center">Problem Solving Requirements for Suppliers AS13000</span>
+                </div>
+
+                <div className="client-thumbnail list-jae">
+                  <i class="iconbox-icon fa fa-check"></i>
+                  <span class="list-jae text-center">Aerospace First Article Inspection Requirement AS9102B</span>
+                </div>
+
+                <div className="client-thumbnail list-jae">
+                  <i class="iconbox-icon fa fa-check"></i>
+                  <span class="list-jae text-center">Aerospace Contract Clauses ARP9009</span>
                 </div>
 
 
@@ -105,4 +121,4 @@ class Feedback5 extends React.Component {
     );
   }
 };
-export default Feedback5;
+export default Feedback6;
